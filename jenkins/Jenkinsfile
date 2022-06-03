@@ -1,6 +1,5 @@
 
 node {
-    stages {
         stage('Build') {
            echo "Building the project..."
         }
@@ -13,6 +12,4 @@ node {
         stage('Release') {
            echo "Release the project."
         }
-        
-    }
 }
