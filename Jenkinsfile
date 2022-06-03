@@ -10,6 +10,9 @@ node {
         stage('Deploy') {
            echo "Deploying the project..."
         }
+        stage('Release') {
+           echo "Release the project."
+        }
         
     }
 }
